@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Jqury Basics</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert("!! WELCOME !!");
+			$("button").click(function(){
+				var emailval=$("#emailid").val();
+				alert(emailval);
+			});
+		});
+	</script>
+</head>
+<body>
+  <input type="email" name="emailid" id="emailid">
+  <input type="password" id="pass" name="">
+  <button type="Submit"> Log In</button>
+</body>
+</html>
